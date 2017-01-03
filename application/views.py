@@ -17,3 +17,7 @@ def alone():
 @app.route('/Drunken')
 def drunkensailor():
     return render_template('Drunken.html', title="Irish Sailors - Drunken Sailors")
+
+@app.route('/Hokage')
+def hokagefuneral():
+    return render_template('HokageFuneral.html', title="Naruto - Hokage Funeral")
